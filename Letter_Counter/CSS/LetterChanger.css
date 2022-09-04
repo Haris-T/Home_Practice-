@@ -1,0 +1,43 @@
+#container{
+    margin: auto;
+    text-align: center;
+    border: 1px solid grey;
+    width: 30%;
+    height: fit-content;
+}
+#button_1{
+    margin: auto;
+    background-color: #04AA6D!important;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+    text-align: center;
+    margin-top: 5px;
+}
+#button_1:hover{
+    cursor: pointer;
+}
+#inputText{
+    border: 1px solid black!important;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 30%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+#numberOfLetters{
+    padding-top: 5px;
+    text-align: center;
+    margin: 20px auto;
+    width: 20%;
+    height: 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
